@@ -17,21 +17,25 @@ export default function Sidebar() {
           <li>
             <a href="#">
               <img src={Feed} alt="ícone de revista indicando feed" />
+              <span>Feed</span>
             </a>
           </li>
           <li>
             <a href="#">
               <img src={Perfil} alt="ícone de perfil" />
+              <span>Perfil</span>
             </a>
           </li>
           <li>
             <a>
               <img src={Info} alt="ícone de informações" />
+              <span>Sobre nós</span>
             </a>
           </li>
           <li>
             <a href="#">
               <img src={Logout} />
+              <span>Sair</span>
             </a>
           </li>
         </ul>
