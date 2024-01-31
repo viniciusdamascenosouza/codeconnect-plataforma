@@ -1,4 +1,4 @@
-# <img align="center" alt="vinicius-react" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />React: configurando e estruturando projetos com Vite<img align="center" alt="vinicius-react" height="40" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+# <img align="center" alt="vinicius-react" height="20" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />React: configurando e estruturando projetos com Vite<img align="center" alt="vinicius-react" height="20" width="30" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
 ### Repositório criado para estudos em curso na plataforma Alura, onde aprendi:
 
 <ul>
