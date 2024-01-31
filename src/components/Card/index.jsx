@@ -1,38 +1,48 @@
 import "./styles.css";
-import Capa from "./assets/capa.png";
 import Code from "./assets/code.svg";
 import Chat from "./assets/chat.svg";
 import Share from "./assets/share.svg";
-import Icone from "./assets/icone.png";
 
-export default function Card() {
+export default function Card({
+  id,
+  imagemUrl,
+  titulo,
+  resumo,
+  linhasDeCodigo,
+  compartilhamentos,
+  comentarios,
+  usuario,
+}) {
   return (
     <article className="card">
       <div className="card__imagem">
-        <img src={Capa} alt="Imagem do post" />
+        <img src={imagemUrl} alt="imagem do post" />
       </div>
       <div className="card__conteudo">
         <div className="conteudo__texto">
-          <h3>Titulo do post</h3>
-          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
+          <h3>{titulo}</h3>
+          <p>{resumo}</p>
         </div>
 
         <div className="conteudo__rodape">
           <ul>
             <li>
-              <img src={Code} alt="ícone códigos" />
+              <img src={Code} alt="códigos" />
+              {linhasDeCodigo}
             </li>
             <li>
-              <img src={Chat} alt="ícone comentário" />
+              <img src={Share} alt="compartilhamentos" />
+              {compartilhamentos}
             </li>
             <li>
-              <img src={Share} alt="ícone compartilhar" />
+              <img src={Chat} alt="comentários" />
+              {comentarios}
             </li>
           </ul>
 
           <div className="rodape__usuario">
-            <img src={Icone} alt="Imagem do usuário" />
-            @vds
+            <img src={usuario.imagem} alt="imagem do usuário" />
+            {usuario.nome}
           </div>
         </div>
       </div>

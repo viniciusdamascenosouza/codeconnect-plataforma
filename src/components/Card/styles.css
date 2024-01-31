@@ -2,7 +2,7 @@
     color: var(--cinza-claro);
     background-color: var(--cinza-escuro);
     border-radius: 8px;
-    width: 50%;
+    width: 100%;
     display: grid;
 }
 
