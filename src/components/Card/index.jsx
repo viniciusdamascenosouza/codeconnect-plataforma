@@ -14,7 +14,7 @@ export default function Card() {
       <div className="card__conteudo">
         <div className="conteudo__texto">
           <h3>Titulo do post</h3>
-          <p>Resumo do post</p>
+          <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
         </div>
 
         <div className="conteudo__rodape">
@@ -32,7 +32,7 @@ export default function Card() {
 
           <div className="rodape__usuario">
             <img src={Icone} alt="Imagem do usuário" />
-            @viniciusdamascenosouza
+            @vds
           </div>
         </div>
       </div>
